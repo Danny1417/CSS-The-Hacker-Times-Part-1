@@ -1,5 +1,7 @@
 body {
     background-color: #eee;
+    padding: 25px;
+    margin-left: 21%;
 }
 
 .newspaper-container {
@@ -26,7 +28,7 @@ li {
     display: inline-block;
     margin: 1px;
     padding: 2px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 nav {
