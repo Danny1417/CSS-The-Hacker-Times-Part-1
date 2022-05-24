@@ -6,6 +6,7 @@ body {
 
 .newspaper-container {
     width: 700px;
+    height: 90vh;
     border-radius: 30px;
     box-shadow: #ddd;
     padding: 1px;
@@ -29,15 +30,22 @@ li {
     margin: 1px;
     padding: 2px;
     font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:link {
+    color: rgb(133, 132, 132);
+}
+
+a:hover {
+    color: black;
 }
 
 nav {
-    border: 1px black;
-}
-
-li {
-    margin-left: 0%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    color: black;
 }
 
 main {
@@ -46,9 +54,29 @@ main {
 }
 
 .more-articles p {
-    display: inline-block;
-    text-align: left;
+    position: relative;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif
+}
+
+.section1 {
+    padding: 25vh;
+    margin: 2px;
+    border: 4px;
+    position: absolute;
+    bottom: -150px;
+    left: 26%;
+    text-align: center;
+}
+
+.section2 {
+    padding: 25vh;
+    margin: 2px;
+    border: 4px;
+    position: absolute;
+    bottom: -150px;
+    right: 26%;
+    text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
